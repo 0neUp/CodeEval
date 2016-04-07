@@ -11,6 +11,7 @@ using namespace std;
 #include "BinaryChallenge.h"
 #include "TwelveByTwelve.h"
 #include "PalindromicPrime.h"
+#include "MultiplesOfNumber.h"
 
 
 int main(int argc, char *argv[]) {
@@ -39,6 +40,11 @@ int main(int argc, char *argv[]) {
 	PalindromicPrime *palprime = new PalindromicPrime;
 	palprime->PrintPalindromicPrime();
 	delete palprime;
+
+	// Smallest multiple of n to exceed x
+	MultiplesOfNumber *multitest = new MultiplesOfNumber;
+	multitest->PrintSmallestMultiple();
+	delete multitest;
 
 	return 0;
 }

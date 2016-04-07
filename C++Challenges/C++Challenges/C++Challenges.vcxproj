@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="BinaryChallenge.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MultiplesOfNumber.cpp" />
     <ClCompile Include="PalindromicPrime.cpp" />
     <ClCompile Include="Primes.cpp" />
     <ClCompile Include="ReverseSentences.cpp" />
@@ -33,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryChallenge.h" />
+    <ClInclude Include="MultiplesOfNumber.h" />
     <ClInclude Include="PalindromicPrime.h" />
     <ClInclude Include="Primes.h" />
     <ClInclude Include="ReverseSentences.h" />
