@@ -12,6 +12,7 @@ using namespace std;
 #include "TwelveByTwelve.h"
 #include "PalindromicPrime.h"
 #include "MultiplesOfNumber.h"
+#include "RollerCoasterCase.h"
 
 
 int main(int argc, char *argv[]) {
@@ -45,6 +46,11 @@ int main(int argc, char *argv[]) {
 	MultiplesOfNumber *multitest = new MultiplesOfNumber;
 	multitest->PrintSmallestMultiple();
 	delete multitest;
+
+	// Print out sentences in rollercoaster text
+	RollerCoasterCase *rollertest = new RollerCoasterCase;
+	rollertest->Rollercoasterize();
+	delete rollertest;
 
 	return 0;
 }

@@ -39,6 +39,9 @@
     <ClCompile Include="MultiplesOfNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RollerCoasterCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="MultiplesOfANumber.txt">
@@ -48,6 +51,9 @@
       <Filter>Resource Files\txt</Filter>
     </Text>
     <Text Include="binary.txt">
+      <Filter>Resource Files\txt</Filter>
+    </Text>
+    <Text Include="rollercoaster.txt">
       <Filter>Resource Files\txt</Filter>
     </Text>
   </ItemGroup>
@@ -68,6 +74,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MultiplesOfNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RollerCoasterCase.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

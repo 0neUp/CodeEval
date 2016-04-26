@@ -25,11 +25,13 @@
     <ClCompile Include="PalindromicPrime.cpp" />
     <ClCompile Include="Primes.cpp" />
     <ClCompile Include="ReverseSentences.cpp" />
+    <ClCompile Include="RollerCoasterCase.cpp" />
     <ClCompile Include="TwelveByTwelve.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="binary.txt" />
     <Text Include="MultiplesOfANumber.txt" />
+    <Text Include="rollercoaster.txt" />
     <Text Include="sentences.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -38,6 +40,7 @@
     <ClInclude Include="PalindromicPrime.h" />
     <ClInclude Include="Primes.h" />
     <ClInclude Include="ReverseSentences.h" />
+    <ClInclude Include="RollerCoasterCase.h" />
     <ClInclude Include="TwelveByTwelve.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
